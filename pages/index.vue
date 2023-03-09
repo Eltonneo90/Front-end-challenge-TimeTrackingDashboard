@@ -1,12 +1,14 @@
 <template>
   <div
-    class="flex flex-col justify-start md:justify-center md:flex-row md:items-center h-screen"
+    class="flex flex-col h-screen justify-start md:justify-center md:flex-row md:items-center"
   >
     <section
-      class="grid mx-10 py-10 gap-4 grid-cols-1 md:grid-cols-4 text-white md:py-0"
+      class="grid mx-10 py-10 gap-8 grid-cols-1 md:grid-cols-4 text-white md:py-0"
     >
       <!-- Jeremy Robson -->
-      <div class="md:row-span-2 bg-DarkBlue rounded-lg flex flex-col">
+      <div
+        class="md:row-span-2 md:w-[230px] md:max-w-full bg-DarkBlue rounded-lg flex flex-col"
+      >
         <div
           class="bg-Blue flex text-xs rounded-lg px-6 py-5 md:pb-16 md:flex-col justify-center space-x-2 items-center md:items-start"
         >
